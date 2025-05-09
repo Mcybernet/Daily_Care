@@ -966,19 +966,22 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 }
 
 .site-heading h5 {
-  text-transform: uppercase;
-  font-weight: 800;
-  color: #4ac4f3;
-  font-size: 18px;
-  position: relative;
-  z-index: 1;
-  display: inline-block;
+  /* text-transform: uppercase; */
+  /* font-weight: 800; */
+  /* color: #000000; */
+  /* font-size: 18px; */
+  /* position: relative; */
+  /* z-index: 1; */
+  /* display: inline-block; */
 }
 
 .site-heading p {
+  font-weight: normal; 
+  font-size: medium;
   margin: 0;
   margin-top: 10px;
 }
+
 
 .site-heading.light p {
   color: #ffffff;
@@ -2560,6 +2563,10 @@ body,
   margin-bottom: 30px;
 }
 
+.features-area .features-box .single-item .item p{
+  font-size:medium;
+}
+
 .features-area .features-box .item {
   padding: 60px 40px;
   position: relative;
@@ -2730,6 +2737,8 @@ body,
   position: relative;
   z-index: 1;
 }
+
+.features-carousel-area {}
 
 .features-carousel-area .item {
   padding: 20px 37px;
@@ -2953,6 +2962,8 @@ body,
 
 .features-area .features-items .item p {
   margin-bottom: 0;
+  font-weight: normal; 
+  font-size: medium;
 }
 
 

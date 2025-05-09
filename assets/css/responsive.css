@@ -117,6 +117,15 @@
   .features-area .features-items .single-item .item .icon::after {
     opacity: 0.3 !important;
   }
+  
+  .feature-2-col-carousel .item{
+    height: 480px;
+  }
+
+  .feature-2-col-carousel .item .icon{
+    margin: auto;
+    width: 80px;
+  }
 
 
   /* Choose us */
@@ -609,6 +618,8 @@
     opacity: 0.3 !important;
   }
 
+  
+
 
   /* Quick Signup */
   .quick-signup-area form {
@@ -1067,6 +1078,30 @@
   .blog-area.single .post-pagi-area a:last-child {
     float: right;
   }
+
+  /* feature */
+  .feature-2-col-carousel .item{
+    height: 380px;
+  }
+
+  .feature-2-col-carousel .item .icon{
+    margin: auto;
+    width: 60px;
+  }
+
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 480px){
+      /* feature */
+      .feature-2-col-carousel .item{
+        height: 350px;
+      }
+    
+      .feature-2-col-carousel .item .icon{
+        margin: auto;
+        width: 50px;
+      }
 }
 
 @media screen and (max-width: 991px) {
@@ -1099,6 +1134,18 @@
   .our-specialty-area .info ul.fun-fact li::after {
     display: none;
   }
+  
+  /* feature */
+  .feature-2-col-carousel .item{
+    height: 365px;
+    /* padding-bottom: 50px; */
+  }
+
+  .feature-2-col-carousel .item .icon{
+    margin: auto;
+    width: 35px;
+  }
+  
 }
 
 
@@ -1132,7 +1179,17 @@
 
 
 /* Landscape mode (seperti desktop) */
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width : 1300px){
+
+  /* feature */
+  .feature-2-col-carousel .item{
+    height: 460px;
+  }
+
+  .feature-2-col-carousel .item .icon{
+    margin: auto;
+    width: 100px;
+  }
   /* Cocok untuk S8 Ultra rebahan */
 }
 
