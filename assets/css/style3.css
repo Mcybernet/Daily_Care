@@ -2663,6 +2663,15 @@ body,
   background: linear-gradient(to bottom right, #63BC6F, #A0F8AC);
 }
 
+.feature-2-col-carousel {
+  /* border: red solid; */
+}
+
+.feature-2-col-carousel .item{
+  /* border: red solid; */
+  height: 600px;
+}
+
 
 /* ============================================================== 
 # Features Version Two
