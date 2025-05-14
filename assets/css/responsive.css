@@ -1361,6 +1361,11 @@
     padding-inline: 20px;
   }
 
+  .features-items .single-item{
+    /* border: red solid; */
+    margin-bottom: 10px !important;
+  }
+
   .single-item .item{
     padding: 20px !important;
     /* padding-block: 100px; */
