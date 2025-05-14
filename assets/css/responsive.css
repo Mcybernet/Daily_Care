@@ -1157,8 +1157,13 @@
     padding-inline: 20px;
   }
 
+  .features-items .single-item{
+    /* border: red solid; */
+    margin-bottom: 15px !important;
+  }
+
   .single-item .item{
-    /* padding: 20px !important; */
+    padding: 20px !important;
     /* padding-block: 100px; */
     /* border: red solid; */
   }
@@ -1240,6 +1245,11 @@
     padding-inline: 20px;
   }
 
+  .features-items .single-item{
+    /* border: red solid; */
+    margin-bottom: 15px !important;
+  }
+
   .single-item .item{
     padding: 20px !important;
     /* padding-block: 100px; */
@@ -1256,6 +1266,7 @@
     font-size: medium;
     margin: 0;
     margin-top: 50px;
+    /* border: red solid; */
   }
 
   .features-box .single-item .item{
@@ -1266,7 +1277,7 @@
   .features-box .single-item .item p{
     /* border: red solid; */
     padding-block: 5px !important;
-    padding-inline: 0px !important;
+    padding-inline: 20px !important;
   }
 
   .cta a{
@@ -1377,7 +1388,7 @@
   .features-box .single-item .item p{
     /* border: red solid; */
     padding-block: 5px !important;
-    padding-inline: 0px !important;
+    padding-inline: 15px !important;
   }
 
   .cta a{
@@ -1409,7 +1420,7 @@
     /* border: rgb(34, 0, 255) solid; */
     padding: 0px !important;
   }
-  
+
   /* testimoni */
   .info-3B .cta a{
     width: 100%;
