@@ -84,17 +84,52 @@
     padding-bottom: 80px;
   }
 
+  /* feature */
+
+  /* item penelitian */
+
+  /* item 3B */
+
+  .cta a{
+    /* border: blue solid; */
+    width: 80% !important;
+  }
+
+  /* produk */
+
+  .feature-2-col-carousel .item{
+    /* border: rgb(34, 0, 255) solid; */
+    padding-inline: 10px;
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 50px; */
+
+    /* display: block; */
+    text-align: center;
+    height: 630px;
+  }
+
+  .feature-2-col-carousel .item .icon{
+    margin: auto;
+    width: 90px;
+  }
+
+  .feature-2-col-carousel .item .info {
+    justify-content: end;
+    /* border: rgb(34, 0, 255) solid; */
+    padding: 0px !important;
+  }
+
+  /* testimoni */
+  .info-3B .cta a{
+    width: 100%;
+  }
+
   /* Features */
   .features-area .features-box .item {
     margin-top: 0;
     margin-bottom: 0;
     box-shadow: 0 5px 30px 0 rgba(214, 215, 216, 0.57);
-  }
-
-  .features-carousel-area .item {
-    display: block;
-    text-align: center;
-    height: 630px;
   }
 
   .features-carousel-area .item i {
@@ -588,17 +623,19 @@
     display: none;
   }
 
+  /* feature */
+  .cta a{
+    /* border: blue solid; */
+    width: 100% !important;
+  }
+
+
+  
   /* Features */
   .features-area .features-box .item {
     margin-top: 0;
     margin-bottom: 0;
     box-shadow: 0 5px 30px 0 rgba(214, 215, 216, 0.57);
-  }
-
-  .features-carousel-area .item {
-    display: block;
-    text-align: center;
-    height: 620px;
   }
 
   .features-carousel-area .item i {
@@ -617,7 +654,6 @@
   .features-area .features-items .single-item .item .icon::after {
     opacity: 0.3 !important;
   }
-
   
 
 
@@ -733,6 +769,7 @@
     border-bottom: 15px solid #ffffff;
     margin-left: -15px;
   }
+
 
 
   /* Faq */
@@ -1014,6 +1051,33 @@
   .projects-area .gallery-items.colums-4 .pf-item {
     width: 50%;
   }
+
+    .feature-2-col-carousel .item{
+    /* border: rgb(34, 0, 255) solid; */
+    padding-inline: 10px;
+    /* height: 460px; */
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    /* display: block; */
+    height: 620px;
+    /* border: yellow solid; */
+    /* padding-bottom: 50px; */
+    text-align: center;
+
+  }
+
+  .feature-2-col-carousel .item .info {
+    justify-content: end;
+    /* border: rgb(34, 0, 255) solid; */
+    padding: 0px !important;
+    text-align: center;
+  }
+
+   /* .feature-2-col-carousel .item .icon img{
+    margin: auto;
+    width: 90px;
+  } */
 }
 
 
@@ -1080,28 +1144,165 @@
   }
 
   /* feature */
+  .site-heading.top-info{
+    /* border: rgb(38, 0, 128) solid; */
+    margin-bottom: 35px !important;
+    overflow: hidden;
+    margin-top: -50px !important;
+  }
+
+  /* item penelitian */
+  .single-item{
+    /* border: red solid; */
+    padding-inline: 20px;
+  }
+
+  .single-item .item{
+    /* padding: 20px !important; */
+    /* padding-block: 100px; */
+    /* border: red solid; */
+  }
+  .single-item .item p{
+    /* padding: 0px; */
+    /* border: rgb(0, 238, 255) solid; */
+  }
+
+  /* item 3B */
+  .site-heading.item-3B p {
+    font-weight: normal; 
+    font-size: medium;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .features-box .single-item .item{
+    /* border: red solid; */
+    /* padding-block: 15px !important; */
+    /* padding-inline: 15px !important; */
+  }
+  .features-box .single-item .item p{
+    /* border: red solid; */
+    /* padding-block: 5px !important; */
+    /* padding-inline: 0px !important; */
+    text-align: center;
+
+  }
+
+  .cta a{
+    /* border: blue solid; */
+    width: 100% !important;
+  }
+
+  /* produk */
+  .feature-2-col-carousel .item {
+
+  }
+
   .feature-2-col-carousel .item{
-    height: 380px;
+    /* border: rgb(34, 0, 255) solid; */
+    padding-inline: 10px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 50px; */
   }
 
   .feature-2-col-carousel .item .icon{
     margin: auto;
-    width: 60px;
+    width: 90px;
   }
 
+  .feature-2-col-carousel .item .info {
+    justify-content: end;
+    /* border: rgb(34, 0, 255) solid; */
+    padding: 0px !important;
+  }
 
+  /* testimoni */
+    .info-3B .cta a{
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 480px){
-      /* feature */
-      .feature-2-col-carousel .item{
-        height: 350px;
-      }
-    
-      .feature-2-col-carousel .item .icon{
-        margin: auto;
-        width: 50px;
-      }
+
+  /* feature */
+  .site-heading.top-info{
+    /* border: green solid; */
+    margin-bottom: 35px !important;
+    overflow: hidden;
+    margin-top: -50px !important;
+  }
+
+  /* item penelitian */
+  .single-item{
+    /* border: red solid; */
+    padding-inline: 20px;
+  }
+
+  .single-item .item{
+    padding: 20px !important;
+    /* padding-block: 100px; */
+    /* border: red solid; */
+  }
+  .single-item .item p{
+    padding: 0px;
+    /* border: rgb(0, 238, 255) solid; */
+  }
+
+  /* item 3B */
+  .site-heading.item-3B p {
+    font-weight: normal; 
+    font-size: medium;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .features-box .single-item .item{
+    /* border: red solid; */
+    padding-block: 10px !important;
+    padding-inline: 0px !important;
+  }
+  .features-box .single-item .item p{
+    /* border: red solid; */
+    padding-block: 5px !important;
+    padding-inline: 0px !important;
+  }
+
+  .cta a{
+    /* border: blue solid; */
+    width: 100% !important;
+  }
+
+  /* produk */
+  .feature-2-col-carousel .item {
+
+  }
+
+  .feature-2-col-carousel .item{
+    /* border: rgb(34, 0, 255) solid; */
+    padding-inline: 10px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 50px; */
+  }
+
+  .feature-2-col-carousel .item .icon{
+    margin: auto;
+    width: 80px;
+  }
+
+  .feature-2-col-carousel .item .info {
+    justify-content: end;
+    /* border: rgb(34, 0, 255) solid; */
+    padding: 0px !important;
+  }
+
+  /* testimoni */
+  .info-3B .cta a{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1114,6 +1315,7 @@
 
 /* Custom layout. */
 @media only screen and (max-width: 400px) {
+
 
   .banner-area .bottom {
     display: block;
@@ -1136,16 +1338,82 @@
   }
   
   /* feature */
+  .site-heading.top-info{
+    margin-bottom: 35px !important;
+    overflow: hidden;
+    margin-top: -50px !important;
+  }
+
+  /* item penelitian */
+  .single-item{
+    /* border: red solid; */
+    padding-inline: 20px;
+  }
+
+  .single-item .item{
+    padding: 20px !important;
+    /* padding-block: 100px; */
+    /* border: red solid; */
+  }
+  .single-item .item p{
+    padding: 0px;
+    /* border: rgb(0, 238, 255) solid; */
+  }
+
+  /* item 3B */
+  .site-heading.item-3B p {
+    /* border: red solid; */
+    font-weight: normal; 
+    font-size: medium;
+    margin: 0;
+    margin-top: 50px !important;
+  }
+
+  .features-box .single-item .item{
+    /* border: red solid; */
+    padding-block: 15px !important;
+    padding-inline: 0px !important;
+  }
+  .features-box .single-item .item p{
+    /* border: red solid; */
+    padding-block: 5px !important;
+    padding-inline: 0px !important;
+  }
+
+  .cta a{
+    /* border: blue solid; */
+    width: 100% !important;
+  }
+
+  /* produk */
+  .feature-2-col-carousel .item {
+
+  }
+
   .feature-2-col-carousel .item{
-    height: 365px;
+    /* border: rgb(34, 0, 255) solid; */
+    padding-inline: 10px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
     /* padding-bottom: 50px; */
   }
 
   .feature-2-col-carousel .item .icon{
     margin: auto;
-    width: 35px;
+    width: 60px;
+  }
+
+  .feature-2-col-carousel .item .info {
+    justify-content: end;
+    /* border: rgb(34, 0, 255) solid; */
+    padding: 0px !important;
   }
   
+  /* testimoni */
+  .info-3B .cta a{
+    width: 100%;
+  }
 }
 
 
@@ -1166,10 +1434,48 @@
   .pricing-area .shape-top {
     display: none;
   }
+
+  /* feature */
+
+  /* item penelitian */
+
+  /* item 3B */
+
+  .cta a{
+    /* border: blue solid; */
+    width: 100% !important;
+  }
+
+  /* produk */
+
+  .feature-2-col-carousel .item{
+    /* border: rgb(34, 0, 255) solid; */
+    padding-inline: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* height: 600px; */
+  }
+
+  .feature-2-col-carousel .item .icon{
+    margin: auto;
+    /* width: 100px; */
+  }
+
+  .feature-2-col-carousel .item .info {
+    justify-content: end;
+    /* border: rgb(34, 0, 255) solid; */
+    padding: 0px !important;
+  }
+  /* testimoni */
+  .info-3B .cta a{
+    width: 100%;
+  }
 }
 
 
 @media only screen and (min-width: 2400px) {
+
 
 .pricing-area .shape-top img {
     height: 60%;
@@ -1182,13 +1488,66 @@
 @media (min-width: 1025px) and (max-width : 1300px){
 
   /* feature */
+
+  /* item penelitian */
+
+  /* item 3B */
+
+  .cta a{
+    /* border: blue solid; */
+    width: 100% !important;
+  }
+
+  /* produk */
+
   .feature-2-col-carousel .item{
-    height: 460px;
+    /* border: rgb(34, 0, 255) solid; */
+    padding-inline: 10px;
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 50px; */
+
+    /* display: block; */
+    text-align: center;
+    height: 500px;
   }
 
   .feature-2-col-carousel .item .icon{
     margin: auto;
     width: 100px;
+  }
+
+  .feature-2-col-carousel .item .info {
+    justify-content: end;
+    /* border: rgb(34, 0, 255) solid; */
+    padding: 0px !important;
+  }
+
+  /* testimoni */
+  .info-3B .cta a{
+    width: 100%;
+  }
+
+  /* Features */
+  .features-area .features-box .item {
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0 5px 30px 0 rgba(214, 215, 216, 0.57);
+  }
+
+  .features-carousel-area .item i {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  /* feature */
+  .feature-2-col-carousel .item{
+    /* height: 460px; */
+  }
+
+  .feature-2-col-carousel .item .icon{
+    /* margin: auto; */
+    /* width: 100px; */
   }
   /* Cocok untuk S8 Ultra rebahan */
 }
